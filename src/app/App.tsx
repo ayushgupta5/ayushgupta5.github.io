@@ -220,7 +220,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center text-gray-300">
             <p className="text-lg mb-2">© {new Date().getFullYear()} Ayush Kumar Gupta</p>
-            <p className="text-sm text-gray-400">Building reliable systems at scale • Senior Software Engineer</p>
+            <p className="text-sm text-gray-400">Building reliable systems at scale • Software Engineer</p>
             <div className="mt-6 flex justify-center gap-6">
               <a
                 href="mailto:ayushgupta.ac@gmail.com"

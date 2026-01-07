@@ -60,7 +60,7 @@ export function Hero() {
             <div className="space-y-4">
               <div className="inline-block">
                 <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
-                  Senior Software Engineer
+                  Software Engineer
                 </span>
               </div>
               <h1 id="hero-heading" className="text-4xl sm:text-5xl lg:text-6xl tracking-tight text-gray-900 font-bold">
@@ -153,7 +153,7 @@ export function Hero() {
                 {/* Profile Image */}
                 <img
                   src={PROFILE_PHOTO_URL}
-                  alt="Ayush Kumar Gupta - Senior Software Engineer specializing in distributed systems"
+                  alt="Ayush Kumar Gupta - Software Engineer specializing in distributed systems"
                   className={`w-full h-auto rounded-xl object-cover aspect-square transition-opacity duration-300 ${
                     imageLoaded && !imageError ? "opacity-100" : "opacity-0 absolute inset-0"
                   }`}

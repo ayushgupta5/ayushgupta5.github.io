@@ -54,7 +54,7 @@ The portfolio currently uses a placeholder image from Unsplash. You need to repl
 ```jsx
 <img
   src="https://your-image-host.com/ayush-gupta-photo.jpg"
-  alt="Ayush Kumar Gupta - Senior Software Engineer"
+  alt="Ayush Kumar Gupta - Software Engineer"
   className="w-full h-auto rounded-xl object-cover aspect-square max-w-md"
 />
 ```

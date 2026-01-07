@@ -39,7 +39,7 @@ export function Projects() {
         "30% reduction in notification-related support tickets",
         "Expanded to Indonesia market with localized templates"
       ],
-      tech: ["Golang", "Kafka", "AWS SQS", "Pigeon", "Hedwig"],
+      tech: ["Golang", "Kafka", "AWS SQS"],
       color: "green"
     },
     {
@@ -74,7 +74,7 @@ export function Projects() {
       icon: Code,
       title: "Microservices Architecture",
       problem: "Complex fintech domain required scalable, maintainable architecture across multiple teams and services.",
-      solution: "Worked across 8+ microservices (LoanExp, LoanCore, AssetOffline, etc.) using event-driven patterns, layered architecture, and integration with external platforms (Thought Machine, Pigeon).",
+      solution: "Contributed to the design and development of 8+ distributed microservices using event-driven architecture and layered design principles. Integrated internal systems with external core banking and third-party platforms, ensuring reliable communication, extensibility, and long-term maintainability. Applied production-grade engineering practices to support rapid feature delivery and operational stability.",
       impact: [
         "Feature flags for safe production rollouts",
         "Circuit breakers and retry mechanisms for resilience",

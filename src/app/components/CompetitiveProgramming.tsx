@@ -44,13 +44,16 @@ export function CompetitiveProgramming() {
   };
 
   return (
-    <section className="py-20 px-6 lg:px-8 bg-gray-50">
+    <section
+      className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
+      aria-labelledby="competitive-heading"
+    >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl text-gray-900 mb-4">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 id="competitive-heading" className="text-3xl sm:text-4xl text-gray-900 mb-4 font-bold">
             Competitive Programming
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Strong problem-solving skills demonstrated through 4000+ algorithm challenges
           </p>
         </div>

@@ -2,24 +2,28 @@ import { Building2, Calendar, MapPin } from "lucide-react";
 
 export function Experience() {
   return (
-    <section id="experience" className="py-20 px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
+    <section
+      id="experience"
+      className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white"
+      aria-labelledby="experience-heading"
+    >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12 sm:mb-16">
           <div className="inline-block mb-4">
             <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
               Career Journey
             </span>
           </div>
-          <h2 className="text-4xl text-gray-900 mb-4">
+          <h2 id="experience-heading" className="text-3xl sm:text-4xl text-gray-900 mb-4 font-bold">
             Work Experience
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Building scalable fintech infrastructure and enterprise solutions
           </p>
         </div>
 
         <div className="space-y-12">
-          {/* Grab Financial Group */}
+          {/* Grab */}
           <div className="relative">
             <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-500 to-blue-600 rounded-full hidden md:block"></div>
             
@@ -33,7 +37,7 @@ export function Experience() {
                     </h3>
                     <div className="flex items-center gap-2 text-blue-600 mb-2">
                       <Building2 className="w-5 h-5" />
-                      <span className="text-lg">Grab Financial Group</span>
+                      <span className="text-lg">Grab</span>
                     </div>
                   </div>
                   <div className="flex flex-col gap-2 text-gray-600">

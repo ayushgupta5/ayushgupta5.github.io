@@ -1,4 +1,4 @@
-import { Code2, Cloud, Database, Zap, GitBranch, Shield } from "lucide-react";
+import { Code2, Cloud, Database, Zap, GitBranch } from "lucide-react";
 
 export function Skills() {
   const skillCategories = [
@@ -80,8 +80,15 @@ export function Skills() {
   const architectureExperience = [
     {
       title: "Microservices Portfolio",
-      description: "8+ microservices across loan lifecycle",
-      services: ["LoanExp", "LoanCore", "AssetOffline", "Transaction-History", "Account-Service", "CR-Decision-Eng", "LoanApp", "Batchify"]
+      description: "8+ microservices across fintech domain",
+      services: [
+        "Experience layer APIs for customer-facing features",
+        "Core domain services for business logic",
+        "Batch processing systems for async workflows",
+        "Transaction history and audit services",
+        "Decision engine integrations",
+        "Notification and communication services"
+      ]
     },
     {
       title: "Architecture Patterns",
@@ -97,18 +104,22 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
+    <section
+      id="skills"
+      className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white"
+      aria-labelledby="skills-heading"
+    >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12 sm:mb-16">
           <div className="inline-block mb-4">
             <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
               Technical Expertise
             </span>
           </div>
-          <h2 className="text-4xl text-gray-900 mb-4">
+          <h2 id="skills-heading" className="text-3xl sm:text-4xl text-gray-900 mb-4 font-bold">
             Technical Skills & Expertise
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Backend specialization in distributed systems, microservices, and high-scale infrastructure
           </p>
         </div>

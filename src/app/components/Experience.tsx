@@ -33,7 +33,7 @@ export function Experience() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
                   <div>
                     <h3 className="text-2xl text-gray-900 mb-2">
-                      Software Engineer 2
+                      Software Engineer
                     </h3>
                     <div className="flex items-center gap-2 text-blue-600 mb-2">
                       <Building2 className="w-5 h-5" />
